@@ -138,8 +138,8 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp NUMBER_0  &kp PLUS
-        &trans  &trans  &trans    &kp PIPE  &kp EXCL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOT       &kp MINUS
+        &trans  &trans  &kp HASH  &kp DLLR  &kp PRCNT    &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp NUMBER_0  &kp PLUS
+        &trans  &trans  &kp AT    &kp PIPE  &kp EXCL     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp DOT       &kp MINUS
 &trans  &trans  &trans  &trans    &trans    &kp TILDE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &kp ASTRK  &kp ENTER
                         &trans    &trans    &trans       &trans        &trans        &kp SLASH
             >;

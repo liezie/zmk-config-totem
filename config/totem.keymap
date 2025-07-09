@@ -98,10 +98,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q  &kp W       &kp E             &kp R           &kp T      &kp Y      &kp U          &kp I              &kp O       &kp P
-         &kp A  &mt LALT S  &mt LCTRL D       &mt LSHFT F     &kp G      &kp H      &mt RSHFT J    &mt RCTRL K        &mt RALT L  &kp SEMI
-&kp ESC  &kp Z  &kp X       &kp C             &kp V           &kp B      &kp N      &kp M          &kp COMMA          &kp DOT     &kp FSLH  &kp ENTER
-                            &lt 2 LEFT_SHIFT  &lt 1 LEFT_GUI  &kp TAB    &kp SPACE  &kp BACKSPACE  &lt 3 RIGHT_SHIFT
+         &kp Q  &kp W       &kp E          &kp R           &kp T      &kp Y      &kp U          &kp I        &kp O       &kp P
+         &kp A  &mt LALT S  &mt LCTRL D    &mt LSHFT F     &kp G      &kp H      &mt RSHFT J    &mt RCTRL K  &mt RALT L  &kp SEMI
+&kp ESC  &kp Z  &kp X       &kp C          &kp V           &kp B      &kp N      &kp M          &kp COMMA    &kp DOT     &kp FSLH  &kp ENTER
+                            &lt 2 AT_SIGN  &lt 1 LEFT_GUI  &kp TAB    &kp SPACE  &kp BACKSPACE  &lt 3 HASH
             >;
         };
 
@@ -127,7 +127,7 @@
         &kp B      &trans  &kp LBRC  &kp LBKT  &kp LPAR    &kp RPAR  &kp RIGHT_BRACKET  &kp RBRC      &trans     &kp PRINTSCREEN
         &trans     &trans  &trans    &trans    &trans      &kp LEFT  &kp DOWN           &kp UP_ARROW  &kp RIGHT  &kp INS
 &trans  &bl BL_ON  &trans  &trans    &trans    &trans      &kp HOME  &kp PAGE_DOWN      &kp PAGE_UP   &kp END    &kp CAPSLOCK     &trans
-                           &trans    &trans    &trans      &trans    &trans             &trans
+                           &trans    &trans    &trans      &trans    &kp DEL            &trans
             >;
         };
 

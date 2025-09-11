@@ -57,6 +57,11 @@
             bindings = <&kp LC(V)>;
             key-positions = <22 24>;
         };
+
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <13 16>;
+        };
     };
 
     macros {

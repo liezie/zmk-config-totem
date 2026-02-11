@@ -109,10 +109,10 @@
 
         Symbols {
             bindings = <
-        &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE    &kp LCTRL  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp DOLLAR  &kp UNDERSCORE
-        &kp EXCLAMATION  &kp ASTERISK   &kp BACKSLASH     &kp EQUAL          &kp RBRC    &kp N4     &kp N5          &kp N6           &kp PLUS    &kp STAR
-&trans  &kp TILDE        &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RBKT    &kp N1     &kp N2          &kp N3           &kp MINUS   &kp FSLH        &kp EQUAL
-                                        &trans            &trans             &trans      &kp DOT    &kp BSPC        &kp EQUAL
+        &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE    &kp LCTRL    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR         &kp UNDERSCORE
+        &kp EXCLAMATION  &kp ASTERISK   &kp BACKSLASH     &kp EQUAL          &kp RBRC    &kp HASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp SEMICOLON
+&trans  &kp TILDE        &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RBKT    &kp AT_SIGN  &kp COLON             &kp COMMA              &kp PERIOD         &kp SQT         &trans
+                                        &trans            &trans             &trans      &kp DOT      &kp BSPC              &kp EQUAL
             >;
         };
 

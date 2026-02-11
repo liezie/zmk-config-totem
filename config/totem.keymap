@@ -107,12 +107,12 @@
             >;
         };
 
-        N_layer {
+        Symbols {
             bindings = <
-        &kp EXCL    &kp AT     &kp POUND  &kp LPAR  &kp RPAR    &kp N7   &kp N8    &kp N9     &kp N0     &kp PRCNT
-        &kp DOLLAR  &kp CARET  &kp AMPS   &kp LBRC  &kp RBRC    &kp N4   &kp N5    &kp N6     &kp PLUS   &kp STAR
-&trans  &kp PIPE    &kp TILDE  &kp DQT    &kp LBKT  &kp RBKT    &kp N1   &kp N2    &kp N3     &kp MINUS  &kp FSLH   &kp EQUAL
-                               &trans     &trans    &trans      &kp DOT  &kp BSPC  &kp EQUAL
+        &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE    &kp LCTRL  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp DOLLAR  &kp UNDERSCORE
+        &kp EXCLAMATION  &kp ASTERISK   &kp BACKSLASH     &kp EQUAL          &kp RBRC    &kp N4     &kp N5          &kp N6           &kp PLUS    &kp STAR
+&trans  &kp TILDE        &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RBKT    &kp N1     &kp N2          &kp N3           &kp MINUS   &kp FSLH        &kp EQUAL
+                                        &trans            &trans             &trans      &kp DOT    &kp BSPC        &kp EQUAL
             >;
         };
 

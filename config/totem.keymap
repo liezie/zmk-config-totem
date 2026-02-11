@@ -125,22 +125,12 @@
             >;
         };
 
-        mod_layer {
+        Numbers {
             bindings = <
-        &trans  &trans  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP    &trans         &trans           &trans             &trans  &trans
-        &trans  &trans  &trans      &trans        &trans             &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &trans  &trans
-&trans  &trans  &trans  &trans      &trans        &trans             &trans         &trans           &trans             &trans  &trans  &trans
-                        &trans      &trans        &trans             &trans         &trans           &trans
-            >;
-        };
-
-        Game_layer {
-            label = "GAME";
-            bindings = <
-         &kp Q  &kp W  &kp E         &kp R             &kp T             &kp Y      &kp U          &kp I        &kp O    &kp P
-         &kp A  &kp S  &kp D         &kp F             &kp G             &kp H      &kp J          &kp K        &kp L    &kp SEMI
-&kp ESC  &kp Z  &kp X  &kp C         &kp V             &kp B             &kp N      &kp M          &kp COMMA    &kp DOT  &kp FSLH  &to 0
-                       &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT    &kp SPACE  &kp BACKSPACE  &lt 0 ENTER
+        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+        &trans        &trans        &trans        &trans        &kp PERCENT     &kp ASTRK     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS
+&trans  &trans        &trans        &trans        &trans        &trans          &kp FSLH      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_SUBTRACT  &kp ENTER
+                                    &trans        &trans        &trans          &trans        &trans        &trans
             >;
         };
 
